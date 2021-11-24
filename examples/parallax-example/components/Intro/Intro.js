@@ -4,6 +4,7 @@ import { Svg } from 'components';
 import { Parallax } from 'react-scroll-parallax';
 import ring from '!!raw-loader!./ring-of-dots.svg';
 import hemispheres from '!!raw-loader!./hemispheres.svg';
+import logo from '!!raw-loader!./wavemon-surfclub-logo.svg';
 
 const Intro = () => (
     <div className={style.root}>
@@ -11,11 +12,11 @@ const Intro = () => (
             <Parallax
                 offsetYMin={-100}
                 offsetYMax={100}
-                className={style.ring}
+                className={style.logo}
             >
-                <Svg svg={ring} />
+                <Svg svg={logo} />
             </Parallax>
-            <Parallax
+            {/* <Parallax
                 offsetYMin={-50}
                 offsetYMax={50}
                 className={style.circle}
@@ -25,7 +26,7 @@ const Intro = () => (
             <Svg
                 className={style.hemispheres}
                 svg={hemispheres}
-            />
+            /> */}
         </div>
         <p className={style.scroll}>Scroll</p>
     </div>
