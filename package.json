@@ -1,10 +1,10 @@
 {
-    "name": "react-scroll-parallax-examples",
+    "name": "WaveMon SurfClub",
     "version": "1.0.0",
-    "description": "React parallax examples using react-scroll-parallax npm package",
+    "description": "WaveMon SurfClub",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jscottsmith/react-scroll-parallax-examples"
+        "url": "https://github.com/WaveMonSurfClub/wavemon-surfclub/"
     },
     "main": "lib/index.js",
     "scripts": {
@@ -19,8 +19,7 @@
         "scroll",
         "component"
     ],
-    "author": "J Scott Smith",
-    "license": "ISC",
+    "author": "Youil Han",
     "dependencies": {
         "prop-types": "^15.6.0",
         "react": "^16.3.0",
