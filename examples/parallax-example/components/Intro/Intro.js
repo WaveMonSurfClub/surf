@@ -15,6 +15,7 @@ const Intro = () => (
                 className={style.logo}
             >
                 <Svg svg={logo} />
+                TEST
             </Parallax>
             {/* <Parallax
                 offsetYMin={-50}
