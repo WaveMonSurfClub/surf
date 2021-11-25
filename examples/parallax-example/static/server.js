@@ -273,14 +273,25 @@ var Intro = function Intro() {
                     offsetYMax: 100,
                     className: _Intro2.default.logo
                 },
-                _react2.default.createElement(_components.Svg, { svg: _wavemonSurfclubLogo2.default }),
-                'TEST'
+                _react2.default.createElement(
+                    'div',
+                    { className: _Intro2.default.logo },
+                    _react2.default.createElement(_components.Svg, {
+                        className: _Intro2.default.logo,
+                        svg: _wavemonSurfclubLogo2.default })
+                )
             )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: _Intro2.default.ocean },
+            _react2.default.createElement('div', { className: _Intro2.default.wave }),
+            _react2.default.createElement('div', { className: _Intro2.default.wave })
         ),
         _react2.default.createElement(
             'p',
             { className: _Intro2.default.scroll },
-            'Scroll'
+            'GO TO PLANET'
         )
     );
 };
@@ -936,6 +947,9 @@ app.listen(3000, function () {
 module.exports = {
 	"root": "Intro_root_1yr",
 	"scroll": "Intro_scroll_3FU",
+	"logo": "Intro_logo_3Fx",
+	"ocean": "Intro_ocean_2Pf",
+	"wave": "Intro_wave_2Qy",
 	"container": "Intro_container_2vh",
 	"ring": "Intro_ring_1XD",
 	"circle": "Intro_circle_GQ_",
