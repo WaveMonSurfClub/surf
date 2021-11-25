@@ -1,4 +1,9 @@
 node_modules
 *dist
 npm-debug.log
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/wavemon-surfclub.iml
 /yarn-error.log

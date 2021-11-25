@@ -14,8 +14,12 @@ const Intro = () => (
                 offsetYMax={100}
                 className={style.logo}
             >
-                <Svg svg={logo} />
-                TEST
+                <div className={style.logo}>
+                    <Svg
+                        className={style.logo}
+                        svg={logo} />
+                </div>
+
             </Parallax>
             {/* <Parallax
                 offsetYMin={-50}
@@ -29,7 +33,11 @@ const Intro = () => (
                 svg={hemispheres}
             /> */}
         </div>
-        <p className={style.scroll}>Scroll</p>
+        <div className={style.ocean}>
+            <div className={style.wave}></div>
+            <div className={style.wave}></div>
+        </div>
+        <p className={style.scroll}>GO TO PLANET</p>
     </div>
 );
 
