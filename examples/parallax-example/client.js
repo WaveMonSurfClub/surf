@@ -5,8 +5,4 @@ import { App } from 'components';
 
 const root = document.getElementById('root');
 
-if (process.env.NODE_ENV === 'dev') {
-    ReactDOM.hydrate(<App />, root);
-} else {
-    ReactDOM.render(<App />, root);
-}
+ReactDOM.hydrate(<App />, root);

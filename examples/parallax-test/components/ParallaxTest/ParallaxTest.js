@@ -2,8 +2,8 @@ import React from "react";
 import { Parallax } from "react-scroll-parallax";
 import style from "./ParallaxTest.scss";
 
-const INC_AMOUNT = 10;
-const START_NUM_ELEMENTS = 10;
+const INC_AMOUNT = 20;
+const START_NUM_ELEMENTS = 20;
 
 export default class ParallaxTest extends React.Component {
     state = {
