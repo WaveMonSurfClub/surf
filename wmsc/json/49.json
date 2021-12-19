@@ -1,0 +1,67 @@
+{
+  "name": "WaveMon Surf Club #49",
+  "description": "THIS IS NEW Surf Club inpired by Wave Mon",
+  "image": "undefined/49.png",
+  "dna": "5a4826f40d50841fcde994f42fb08235d9da32bb",
+  "edition": 49,
+  "date": 1637847102170,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Background2"
+    },
+    {
+      "trait_type": "Right Top",
+      "value": "RightTop5"
+    },
+    {
+      "trait_type": "Right Head",
+      "value": "RightHaed5"
+    },
+    {
+      "trait_type": "Right Face",
+      "value": "RigthFace5"
+    },
+    {
+      "trait_type": "Right Lip",
+      "value": "RightLip2"
+    },
+    {
+      "trait_type": "Right Eye",
+      "value": "RightEye9"
+    },
+    {
+      "trait_type": "Left Top",
+      "value": "LeftTop6"
+    },
+    {
+      "trait_type": "Left Face",
+      "value": "LeftFace4"
+    },
+    {
+      "trait_type": "Left Front Hair",
+      "value": "LeftHair2"
+    },
+    {
+      "trait_type": "Left Lip",
+      "value": "LeftLip3"
+    },
+    {
+      "trait_type": "Left Eye",
+      "value": "LeftEye4"
+    },
+    {
+      "trait_type": "Forehead",
+      "value": "Forehaed"
+    },
+    {
+      "trait_type": "Right Weapon",
+      "value": "RightToy10"
+    },
+    {
+      "trait_type": "Right Hand",
+      "value": "RightHand3"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}
